@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5136480A1E0ED9270018D215 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 513648091E0ED9270018D215 /* main.cpp */; };
-		513648121E0EDBF70018D215 /* Threadpool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 513648111E0EDBF70018D215 /* Threadpool.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,7 +26,6 @@
 		513648061E0ED9270018D215 /* threadpool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = threadpool; sourceTree = BUILT_PRODUCTS_DIR; };
 		513648091E0ED9270018D215 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		513648101E0EDBD60018D215 /* Threadpool.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Threadpool.hpp; sourceTree = "<group>"; };
-		513648111E0EDBF70018D215 /* Threadpool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Threadpool.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 			children = (
 				513648091E0ED9270018D215 /* main.cpp */,
 				513648101E0EDBD60018D215 /* Threadpool.hpp */,
-				513648111E0EDBF70018D215 /* Threadpool.cpp */,
 			);
 			path = threadpool;
 			sourceTree = "<group>";
@@ -125,7 +122,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5136480A1E0ED9270018D215 /* main.cpp in Sources */,
-				513648121E0EDBF70018D215 /* Threadpool.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +248,7 @@
 				5136480F1E0ED9270018D215 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -13,9 +13,10 @@
 int main(int argc, const char * argv[]) {
 	// insert code here...
 	std::cout << "Hello, World!\n";
-	Threadpool t;
+	Threadpool<int, int> t;
 	usleep(3 * 1000000);
+	cout<<"Ending work"<<endl;
 	t.endWork();
-	std::cout<<"Ending threadpool";
+	std::cout<<"Ending threadpool"<<endl;
 	return 0;
 }
